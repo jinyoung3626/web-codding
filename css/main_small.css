@@ -1,0 +1,58 @@
+
+/* HEADER */
+header{
+    height:auto;
+}
+header .main-group{
+    display:block;
+    float:none;
+}
+
+header .main-group .logo{
+    display:inline-block;
+}
+
+header .main-group .menu{
+    display:block;
+}
+
+header .main-group .menu li:nth-child(4){
+    display:none;
+}
+
+header .sub-group{
+    float:none;
+    display:none;
+}
+
+header .main-group .menu li:last-child{
+    display: block;
+}
+
+#toggle-btn{
+    display:block;
+}
+
+header .main-group .toggle{
+    display:none;
+}
+
+header .main-group .toggle.on{
+    display:block;
+}
+
+/* SECTION VISUAL */
+.section--visual .summary__title{
+    display:none;
+}
+
+.section--visual .summary__description{
+    display:none;
+}
+
+/* SECTION BAND */
+.section--band .tiles{
+    display:block;
+}
+
+
